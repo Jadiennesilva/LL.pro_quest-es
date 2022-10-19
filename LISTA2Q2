@@ -2,17 +2,17 @@
  
 int main() {
  
-    double A, B, C, D;
+    double A, B, C, DELTA;
     
     scanf("%lf",&A);
     scanf("%lf",&B);
     scanf("%lf",&C);
     
-   D = (B*B)-4*A*C;
+   DELTA = (B*B)-4*A*C;
    
-   if (D>=0 &&A!=0){
-      printf("R1 = %lf\n", ((B*-1) + sqrt(D)) / (2*A));
-      printf("R2 = %lf\n", ((B*-1) - sqrt(D)) / (2*A));
+   if (DELTA >=0 && A!=0){
+      printf("R1 = %lf\n", ((B*-1) + sqrt(DELTA)) / (2*A));
+      printf("R2 = %lf\n", ((B*-1) - sqrt(DELTA)) / (2*A));
    }
    
    {
@@ -21,3 +21,4 @@ int main() {
     
     return 0;
 }
+
