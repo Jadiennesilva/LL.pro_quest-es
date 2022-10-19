@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+    float raio, VOLUME;
+    
+    scanf("%f",raio);
+    
+    VOLUME = 4*3.14*raio*raio*raio/3;
+    
+    
+    printf("VOLUME = %f\n",VOLUME);
+ 
+    
+    return 0;
+}
