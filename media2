@@ -9,7 +9,7 @@ int main() {
   scanf("%lf", &C);
   
   D = ((A*2) + (B*3) + (C*5))/10;
-  printf("MEDIA = %.2lf\n", D)
+  printf("MEDIA = %.2lf\n", D);
   
   return 0;
 }
