@@ -1,0 +1,23 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, B, C, D;
+    
+    scanf("%lf",&A);
+    scanf("%lf",&B);
+    scanf("%lf",&C);
+    
+   C = (B*B)-4*A*C;
+   
+   if (D>=0 &&A!=0){
+      printf("R1 = %lf\n", ((B*-1) + sqrt(delta)) / (2*A));
+      printf("R2 = %lf\n", ((B*-1) - sqrt(delta)) / (2*A));
+   }
+   
+   {
+       printf("impossivel calcular\n");
+   }
+    
+    return 0;
+}
