@@ -23,3 +23,31 @@
     
     return 0;
 }
+
+
+
+quetao fuso horario
+
+
+#include <stdio.h>
+ 
+int main() {
+ 
+  int S, T, F, HORA;
+  
+  scanf("%d",&S);
+  scanf("%d",&T);
+  scanf("%d",&F);
+  
+  HORA = S + T + + F;
+   if( HORA>= 24 ) HORA -= 24{
+       (HORA < 0 ) HORA += 24
+   }
+   
+  {
+      printf(hora);
+  }
+  
+ 
+    return 0;
+}
