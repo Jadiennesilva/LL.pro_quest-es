@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<math.h>
+
+ int main() {
+ 
+    double A, B, C;
+    
+    scanf("%lf",&A);
+    scanf("%lf",&B);
+    scanf("%lf",&C);
+    
+   if (((B*B) - 4 * A *C <0) || (A == 0)){
+       
+       printf("impossivel calcular\n");
+   }
+   
+   {
+    printf("R1 = %lf\n", (-B + sqrt(B * B -4 * A *C)) / (2*A));
+    printf("R2 = %lf\n", (-B - sqrt(B * B -4 * A *C)) / (2*A));
+   }
+   
+  
+    
+    return 0;
+}
