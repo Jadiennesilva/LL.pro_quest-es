@@ -1,23 +1,59 @@
 #include <stdio.h>
- 
-int main() {
-    int V1, V2, V3, D1, D2, D3, conferencia;
-    
-    scanf(%d,&V1);
-    scanf(%d,&V2);
-    scanf(%d,&V3);
-    
-    D1 = V1;
-    D2 = V2;
-    D3 = V3;
-    
-    if(D1<D2){
-        
-        conferencia = D1;
-        
-    }
- 
 
- 
+int main()
+
+{
+
+    int num1, num2, num3, cont1, cont2, cont3, comparador;
+
+    scanf("%d", &num1);
+    scanf("%d",&num2);
+    scanf("%d",&num3)
+
+    cont1 = num1;
+
+    cont2 = num2;
+
+    cont3 = num3;
+
+    if (cont1 < cont2)
+
+    {
+
+        comparador = cont1;
+
+        cont1 = cont2;
+
+        cont2 = comparador;
+
+    }
+
+    if (cont2 < cont3)
+
+    {
+
+        comparador = cont2;
+
+        cont2 = cont3;
+
+        cont3 = comparador;
+
+    }
+
+    if (cont1 < cont2)
+
+    {
+
+        comparador = cont1;
+
+        cont1 = cont2;
+
+        cont2 = comparador;
+
+    }
+
+    printf("%d\n%d\n%d\n\n%d\n%d\n%d\n",cont3,cont2,cont1,num1,num2,num3);
+
     return 0;
+
 }
